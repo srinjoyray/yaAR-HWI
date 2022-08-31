@@ -8,16 +8,22 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/OculusLipsyncChat.unity
+    guid: bbacb388b7316ea4aa32b03981ee9adc
+  - enabled: 1
     path: Assets/Scenes/TextToSpeech.unity
     guid: 8330c19a6ff93504e8c969e6abc1bd06
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TextToSpeech-Oculus.unity
     guid: 48db76fb1448e3648aedb03e8815b83a
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/OculusLipsyncChat.unity
-    guid: bbacb388b7316ea4aa32b03981ee9adc
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5b18992cc5ca835418f226edb3ec4800,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a9baa082e87a5e641868856455f0c69e,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: c6e66ca72dbaa3f4f813fdd06590adb3,
+      type: 2}
